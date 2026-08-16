@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="7" fill="#18181b"/>
+  <text
+    x="16"
+    y="17"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
+    font-weight="700"
+    font-size="16"
+    fill="#fafafa"
+  >Sk</text>
+</svg>

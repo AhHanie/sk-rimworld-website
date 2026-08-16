@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "mods": [
+    {
+      "steamWorkshopId": "1234567890",
+      "slug": "my-rimworld-mod",
+      "name": "My RimWorld Mod",
+      "description": "A concise but complete description of what this mod adds or changes.",
+      "previewImage": {
+        "src": "/mods/1234567890/preview.webp",
+        "alt": "Preview artwork for My RimWorld Mod",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["quality-of-life", "utility"],
+      "supportedVersions": ["1.5", "1.6"],
+      "uploadDate": "2026-08-16T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890"
+    }
+  ]
+}

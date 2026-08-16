@@ -1,0 +1,901 @@
+{
+  "schemaVersion": 1,
+  "mods": [
+    {
+      "steamWorkshopId": "3707570286",
+      "slug": "matter-network",
+      "name": "Matter Network",
+      "description": "An end-game storage solution mod. Build a digital storage network with a central controller, expandable disk drives, and access interfaces your pawns can use across the base. Replace massive stockpiles with sleek, shared storage that grows with your colony. Perfect for advanced, high-tech colonies.",
+      "previewImage": {
+        "src": "/mods/3707570286/preview.webp",
+        "alt": "Preview artwork for Matter Network",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["storage"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-04-16T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3707570286"
+    },
+    {
+      "steamWorkshopId": "3784200942",
+      "slug": "ui-soundpacks",
+      "name": "UI Soundpacks",
+      "description": "Adds a collection of custom UI soundpacks, letting you change the feel of Rimworld's interface with entirely different audio themes. The mod currently offers 3 different soundpacks.",
+      "previewImage": {
+        "src": "/mods/3784200942/preview.webp",
+        "alt": "Preview artwork for UI Soundpacks",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["audio", "soundpack", "user-interface"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-08-16T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3784200942"
+    },
+    {
+      "steamWorkshopId": "3782632915",
+      "slug": "stockpile-it",
+      "name": "Stockpile It!",
+      "description": "Right-click any item on the map to add it straight to a stockpile or storage building's filter.",
+      "previewImage": {
+        "src": "/mods/3782632915/preview.webp",
+        "alt": "Preview artwork for Stockpile It!",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["quality-of-life"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-08-13T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3782632915"
+    },
+    {
+      "steamWorkshopId": "3782411214",
+      "slug": "raiders-inherit",
+      "name": "Raiders Inherit",
+      "description": "Replaces the vanilla \"Man in Black\" recovery event with something a bit more fitting: when your colony's last colonist falls to an enemy raid, you inherit the raid itself instead of a lone stranger wandering in. A configurable number of the surviving raiders join your colony immediately; the rest are released as non-hostile allies and leave the map peacefully, so nobody is left behind to turn around and attack your new colonists.",
+      "previewImage": {
+        "src": "/mods/3782411214/preview.webp",
+        "alt": "Preview artwork for Raiders Inherit",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-08-13T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3782411214"
+    },
+    {
+      "steamWorkshopId": "3781721566",
+      "slug": "research-requires-resources",
+      "name": "Research Requires Resources",
+      "description": "Research Requires Resources makes research a tangible colony investment. Projects with material costs need a one-time funding bundle before research can begin. When you select one, colonists automatically deliver the required resources to a research bench; the Research tab shows delivery progress, reserved items, and funding status. Once the bundle is paid, the project uses vanilla research points as normal.",
+      "previewImage": {
+        "src": "/mods/3781721566/preview.webp",
+        "alt": "Preview artwork for Research Requires Resources",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay", "balance", "research"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-08-11T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3781721566"
+    },
+    {
+      "steamWorkshopId": "3781460271",
+      "slug": "tribals-auto-gathering",
+      "name": "VFE Tribals Auto Gathering",
+      "description": "Adds daily automation for Vanilla Factions Expanded - Tribals' tribal gathering research ritual. Right-click the tribal gathering gizmo at an active gathering spot to schedule it to begin automatically at that same local time each day. Right-click it again to disable the schedule.",
+      "previewImage": {
+        "src": "/mods/3781460271/preview.webp",
+        "alt": "Preview artwork for VFE Tribals Auto Gathering",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["quality-of-life", "ideology", "vanilla-expanded"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-08-11T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3781460271"
+    },
+    {
+      "steamWorkshopId": "3778946367",
+      "slug": "building-alternatives-framework",
+      "name": "Building Alternatives Framework",
+      "description": "A lightweight, customizable framework that enables modders to group alternative building variants under a single designator dropdown, keeping your Architect Menu clean, organized, and clutter-free.",
+      "previewImage": {
+        "src": "/mods/3778946367/preview.webp",
+        "alt": "Preview artwork for Building Alternatives Framework",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["framework", "architect-menu", "user-interface"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-08-07T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3778946367"
+    },
+    {
+      "steamWorkshopId": "3778600801",
+      "slug": "hide-unloaded-mods-errors",
+      "name": "Hide Unloaded Mods Errors",
+      "description": "Suppresses Rimworld's startup warnings and errors that are produced only while Rimworld inspects an installed mod that is not enabled in your mod list (invalid dependency metadata, malformed About.xml). Messages from enabled mods, Core, and DLC are never touched. Requires Prepatcher.",
+      "previewImage": {
+        "src": "/mods/3778600801/preview.webp",
+        "alt": "Preview artwork for Hide Unloaded Mods Errors",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["utility"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-08-06T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3778600801"
+    },
+    {
+      "steamWorkshopId": "3776583930",
+      "slug": "windows-xp-ui-sfx",
+      "name": "Windows XP UI SFX",
+      "description": "Bring the familiar sounds of Windows XP to Rimworld's interface, from startup and shutdown chimes to menu clicks, alerts, and more. This mod is a demo showcase for Soundpacks Framework.",
+      "previewImage": {
+        "src": "/mods/3776583930/preview.webp",
+        "alt": "Preview artwork for Windows XP UI SFX",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["audio", "soundpack"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-08-03T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3776583930"
+    },
+    {
+      "steamWorkshopId": "3776577997",
+      "slug": "soundpacks-framework",
+      "name": "Soundpacks Framework",
+      "description": "Replace Rimworld’s sound effects with custom, shareable soundpacks.\nSoundpacks Framework lets players import a soundpack, choose it in-game, and replace individual vanilla or mod-added SoundDefs with their own MP3, WAV, or OGG audio. It is a framework: this mod does not include a replacement soundpack by itself.",
+      "previewImage": {
+        "src": "/mods/3776577997/preview.webp",
+        "alt": "Preview artwork for Soundpacks Framework",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["audio", "framework"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-08-02T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3776577997"
+    },
+    {
+      "steamWorkshopId": "3775919927",
+      "slug": "lumen-control",
+      "name": "Lumen Control",
+      "description": "Adds a gizmo to adjust a light source's glow radius. Works for all light sources.",
+      "previewImage": {
+        "src": "/mods/3775919927/preview.webp",
+        "alt": "Preview artwork for Lumen Control",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["quality-of-life", "lightning"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-08-02T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3775919927"
+    },
+    {
+      "steamWorkshopId": "3772055469",
+      "slug": "quick-mod-settings",
+      "name": "Quick Mod Settings",
+      "description": "Adds a button to the bottom bar that opens a list of every installed mod with settings. Pick a mod to edit its settings directly, without pausing the game or digging through the vanilla Options menu.",
+      "previewImage": {
+        "src": "/mods/3772055469/preview.webp",
+        "alt": "Preview artwork for Quick Mod Settings",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["utility", "user-interface"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-07-26T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3772055469"
+    },
+    {
+      "steamWorkshopId": "3771997038",
+      "slug": "dont-leave-it-behind",
+      "name": "Dont Leave it Behind",
+      "description": "Warns you before leaving a non-home map if valuable items would be left behind. Applies to caravans, shuttles, and gravships, with a configurable minimum item value. Cancel to stay, or confirm to leave anyway.",
+      "previewImage": {
+        "src": "/mods/3771997038/preview.webp",
+        "alt": "Preview artwork for Dont Leave it Behind",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["quality-of-life"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-07-26T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3771997038"
+    },
+    {
+      "steamWorkshopId": "3767338163",
+      "slug": "gravship-raids",
+      "name": "Gravship Raids",
+      "description": "Adds gravship raids into the game.",
+      "previewImage": {
+        "src": "/mods/3767338163/preview.webp",
+        "alt": "Preview artwork for Gravship Raids",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay", "odyssey"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-07-19T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3767338163"
+    },
+    {
+      "steamWorkshopId": "3763229720",
+      "slug": "mod-of-the-day",
+      "name": "Mod of the Day",
+      "description": "Displays a random trending mod from Steam Workshop in the main menu.",
+      "previewImage": {
+        "src": "/mods/3763229720/preview.webp",
+        "alt": "Preview artwork for Mod of the Day",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-07-12T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3763229720"
+    },
+    {
+      "steamWorkshopId": "3757435365",
+      "slug": "trader-will-buy-search",
+      "name": "Trader Will Buy Search",
+      "description": "Adds a search bar to the trader will buy menu.",
+      "previewImage": {
+        "src": "/mods/3757435365/preview.webp",
+        "alt": "Preview artwork for Trader Will Buy Search",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface", "quality-of-life"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-07-04T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3757435365"
+    },
+    {
+      "steamWorkshopId": "3751653311",
+      "slug": "chargeable-bionics",
+      "name": "Chargeable Bionics",
+      "description": "Gives all vanilla bionics implants a charge bar that drains over time.\nWhen a bionic runs out of charge, it loses efficiency, body part bionics drop in part effectiveness and stat-boosting implants lose their bonuses. Recharge colonists at the Bionic Charge Station (requires Bionics research).",
+      "previewImage": {
+        "src": "/mods/3751653311/preview.webp",
+        "alt": "Preview artwork for Chargeable Bionics",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay", "bionics"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-06-25T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3751653311"
+    },
+    {
+      "steamWorkshopId": "3751642856",
+      "slug": "chargeable-hediffs-framework",
+      "name": "Chargeable Hediffs Framework",
+      "description": "A framework for modders that gives any hediff an independent electrical charge store.",
+      "previewImage": {
+        "src": "/mods/3751642856/preview.webp",
+        "alt": "Preview artwork for Chargeable Hediffs Framework",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay", "framework"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-06-25T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3751642856"
+    },
+    {
+      "steamWorkshopId": "3746834011",
+      "slug": "message-customizer",
+      "name": "Message Customizer",
+      "description": "Customize Rimworld's top-left messages. Change font size, text color, stroke, background, and border.",
+      "previewImage": {
+        "src": "/mods/3746834011/preview.webp",
+        "alt": "Preview artwork for Message Customizer",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-06-18T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3746834011"
+    },
+    {
+      "steamWorkshopId": "3738362387",
+      "slug": "vfe-tribals-cornerstone-search",
+      "name": "VFE Tribals Cornerstone Search",
+      "description": "Adds a searchbar to the cornerstone menu.",
+      "previewImage": {
+        "src": "/mods/3738362387/preview.webp",
+        "alt": "Preview artwork for VFE Tribals Cornerstone Search",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface", "quality-of-life"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-06-04T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3738362387"
+    },
+    {
+      "steamWorkshopId": "3730792365",
+      "slug": "music-manager-search",
+      "name": "Music Manager Search",
+      "description": "Adds a search bar to music manager's UI.",
+      "previewImage": {
+        "src": "/mods/3730792365/preview.webp",
+        "alt": "Preview artwork for Music Manager Search",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface", "quality-of-life", "addon"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-05-22T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3730792365"
+    },
+    {
+      "steamWorkshopId": "3730115956",
+      "slug": "workshop-mod-tags",
+      "name": "Workshop Mod Tags",
+      "description": "Adds support for Workshop-style custom tags to help Rimworld mods describe what they add, change, or depend on. The goal is to make browsing, sorting, and organizing mods easier by encouraging authors to use clearer, more consistent tags.\n\nThis mod does not add official Rimworld Workshop filter categories in Steam's backend. It also cannot guarantee that Steam displays any custom tag, since Steam controls how tags appear on Workshop pages.",
+      "previewImage": {
+        "src": "/mods/3730115956/preview.webp",
+        "alt": "Preview artwork for Workshop Mod Tags",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["utility"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-05-21T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3730115956"
+    },
+    {
+      "steamWorkshopId": "3725341333",
+      "slug": "mixed-manhunter-attacks",
+      "name": "Mixed Manhunter Attacks",
+      "description": "Adds a chance for a manhunter events to spawn with a mixed group of animals. A settings menu is available to configure the % chance of a mixed attack.",
+      "previewImage": {
+        "src": "/mods/3725341333/preview.webp",
+        "alt": "Preview artwork for Mixed Manhunter Attacks",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-05-13T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3725341333"
+    },
+    {
+      "steamWorkshopId": "3718719179",
+      "slug": "pawn-perspective",
+      "name": "Pawn Perspective",
+      "description": "Allows rotating pawns during the pawn generation screen before starting a game.",
+      "previewImage": {
+        "src": "/mods/3718719179/preview.webp",
+        "alt": "Preview artwork for Pawn Perspective",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-05-03T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3718719179"
+    },
+    {
+      "steamWorkshopId": "3707045543",
+      "slug": "keybindings-search",
+      "name": "Keybindings Search",
+      "description": "Adds a search bar to the keybindings option window.",
+      "previewImage": {
+        "src": "/mods/3707045543/preview.webp",
+        "alt": "Preview artwork for Keybindings Search",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface", "quality-of-life"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-04-15T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3707045543"
+    },
+    {
+      "steamWorkshopId": "3702100325",
+      "slug": "sweet-victory",
+      "name": "Sweet Victory",
+      "description": "Plays the mech cluster defeated sound effect when a raid or an insect hive is defeated. Also, adds a mood buff for defeating raids.",
+      "previewImage": {
+        "src": "/mods/3702100325/preview.webp",
+        "alt": "Preview artwork for Sweet Victory",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["sound-effects", "gameplay"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-04-07T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3702100325"
+    },
+    {
+      "steamWorkshopId": "3701574428",
+      "slug": "closer-ve-quests",
+      "name": "Closer VE Quests",
+      "description": "Adjusts VE quests generation to spawn closer to the player's base. A configuration menu is also available for customization.",
+      "previewImage": {
+        "src": "/mods/3701574428/preview.webp",
+        "alt": "Preview artwork for Closer VE Quests",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["quests", "vanilla-expanded"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-04-07T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3701574428"
+    },
+    {
+      "steamWorkshopId": "3693258313",
+      "slug": "drug-policy-search",
+      "name": "Drug Policy Search",
+      "description": "Adds a search bar to the drug policy menu.",
+      "previewImage": {
+        "src": "/mods/3693258313/preview.webp",
+        "alt": "Preview artwork for Drug Policy Search",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface", "quality-of-life"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-03-27T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3693258313"
+    },
+    {
+      "steamWorkshopId": "3688553480",
+      "slug": "research-icons",
+      "name": "Research Icons",
+      "description": "Adds icons to all research projects.",
+      "previewImage": {
+        "src": "/mods/3688553480/preview.webp",
+        "alt": "Preview artwork for Research Icons",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface", "quality-of-life"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-03-20T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3688553480"
+    },
+    {
+      "steamWorkshopId": "3686379345",
+      "slug": "emergency-gravship-launch",
+      "name": "Emergency Gravship Launch",
+      "description": "Adds icons to all research projects.",
+      "previewImage": {
+        "src": "/mods/3686379345/preview.webp",
+        "alt": "Preview artwork for Emergency Gravship Launch",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-03-16T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3686379345"
+    },
+    {
+      "steamWorkshopId": "3671242214",
+      "slug": "cheat-menu",
+      "name": "Cheat Menu",
+      "description": "Cheat Menu adds a dedicated, searchable cheat tab with clear categories and one-click access to common debug-style actions.\n\nThis mod is also a framework: other mods can register their own cheats through the shared registry and integrate them directly into the same UI.",
+      "previewImage": {
+        "src": "/mods/3671242214/preview.webp",
+        "alt": "Preview artwork for Cheat Menu",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-02-22T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3671242214"
+    },
+    {
+      "steamWorkshopId": "3669535875",
+      "slug": "smart-ground-penetrating-scanner",
+      "name": "Smart Ground Penetrating Scanner",
+      "description": "This mod adjusts the scanner's logic to prioritize open ground. While it doesn't strictly disable mountain spawns, it significantly nudges the algorithm to favor tiles without overhead mountains. If a valid reachable spot exists, your scanner is much more likely to find it.",
+      "previewImage": {
+        "src": "/mods/3669535875/preview.webp",
+        "alt": "Preview artwork for Smart Ground Penetrating Scanner",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-02-19T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3669535875"
+    },
+    {
+      "steamWorkshopId": "3665399164",
+      "slug": "assignments-override",
+      "name": "Assignments Override",
+      "description": "Ever tried to manually order a pawn to do something… only to be told:\n“Pawn is not assigned to this type of work.”\n\nEven though you clearly want them to just do it?\n\nThis mod adds a simple, controlled way to override work restrictions for player-issued manual orders without breaking the pawn’s normal AI behavior.",
+      "previewImage": {
+        "src": "/mods/3665399164/preview.webp",
+        "alt": "Preview artwork for Assignments Override",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["quality-of-life"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-02-13T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3665399164"
+    },
+    {
+      "steamWorkshopId": "3658706918",
+      "slug": "rim-metrics",
+      "name": "RimMetrics",
+      "description": "RimMetrics is a lightweight telemetry and statistics framework for RimWorld. It tracks gameplay metrics for pawns and the colony, and surfaces them in a dedicated in‑game stats tab. It’s also built to be used as a dependency by other mods.",
+      "previewImage": {
+        "src": "/mods/3658706918/preview.webp",
+        "alt": "Preview artwork for RimMetrics",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-02-02T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3658706918"
+    },
+    {
+      "steamWorkshopId": "3655513355",
+      "slug": "left-side-alerts",
+      "name": "Left Side Alerts",
+      "description": "Moves alerts to be rendered on the left side of the screen.",
+      "previewImage": {
+        "src": "/mods/3655513355/preview.webp",
+        "alt": "Preview artwork for Left Side Alerts",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-01-28T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3655513355"
+    },
+    {
+      "steamWorkshopId": "3649094165",
+      "slug": "declutter-ui",
+      "name": "Declutter UI",
+      "description": "A lightweight utility mod designed to declutter Rimworld's UI.",
+      "previewImage": {
+        "src": "/mods/3649094165/preview.webp",
+        "alt": "Preview artwork for Declutter UI",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface", "quality-of-life"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-01-18T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3649094165"
+    },
+    {
+      "steamWorkshopId": "3641680967",
+      "slug": "covered-ugly-thought-nullifier",
+      "name": "Covered Ugly Thought Nullifier",
+      "description": "Nullifies the Ugly social thought when the target pawn is fully covered by a single apparel item (burka-like coverage).",
+      "previewImage": {
+        "src": "/mods/3641680967/preview.webp",
+        "alt": "Preview artwork for Covered Ugly Thought Nullifier",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-01-08T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3641680967"
+    },
+    {
+      "steamWorkshopId": "3614008905",
+      "slug": "configurable-worksites",
+      "name": "Configurable Worksites",
+      "description": "Adds a mod settings menu that allows you to configure certain aspects of the worksite quest.",
+      "previewImage": {
+        "src": "/mods/3614008905/preview.webp",
+        "alt": "Preview artwork for Configurable Worksites",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["quality-of-life"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2025-11-28T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3614008905"
+    },
+    {
+      "steamWorkshopId": "3611626696",
+      "slug": "inspired-unique",
+      "name": "Inspired Unique",
+      "description": "Pawns can craft unique weapons when inspired with creativity.",
+      "previewImage": {
+        "src": "/mods/3611626696/preview.webp",
+        "alt": "Preview artwork for Inspired Unique",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay", "odyssey"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2025-11-24T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3611626696"
+    },
+    {
+      "steamWorkshopId": "3712232510",
+      "slug": "mastercrafted-arms",
+      "name": "Mastercrafted Arms",
+      "description": "Allows level 20 crafters to craft unique weapons. Includes configurable chance, optional customization, and a minimum quality threshold.",
+      "previewImage": {
+        "src": "/mods/3712232510/preview.webp",
+        "alt": "Preview artwork for Mastercrafted Arms",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay", "odyssey"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-04-22T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3712232510"
+    },
+    {
+      "steamWorkshopId": "3713356452",
+      "slug": "vfe-props-and-decor-search-bar",
+      "name": "VFE Props and Decor Search Bar Addon",
+      "description": "Adds a search bar to the categories props and decor menu.",
+      "previewImage": {
+        "src": "/mods/3713356452/preview.webp",
+        "alt": "Preview artwork for VFE Props and Decor Search Bar Addon",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface", "quality-of-life"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-04-24T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3713356452"
+    },
+    {
+      "steamWorkshopId": "3598583438",
+      "slug": "unassigned-beds-alert",
+      "name": "Unassigned Beds Alert",
+      "description": "Displays an alert for colonists with unassigned beds.",
+      "previewImage": {
+        "src": "/mods/3598583438/preview.webp",
+        "alt": "Preview artwork for Unassigned Beds Alert",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["quality-of-life"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2025-11-02T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3598583438"
+    },
+    {
+      "steamWorkshopId": "3579797614",
+      "slug": "project-zomboid-levelup-sound",
+      "name": "ProjectZomboid LevelUp Sound",
+      "description": "Plays the level up sound from Project Zomboid when a colonist levels up any skill.",
+      "previewImage": {
+        "src": "/mods/3579797614/preview.webp",
+        "alt": "Preview artwork for ProjectZomboid LevelUp Sound",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["sound-effects"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2025-10-04T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3579797614"
+    },
+    {
+      "steamWorkshopId": "3558813478",
+      "slug": "share-settings",
+      "name": "Share Settings",
+      "description": "Share your mod settings with anyone.",
+      "previewImage": {
+        "src": "/mods/3558813478/preview.webp",
+        "alt": "Preview artwork for Share Settings",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["utility"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2025-08-30T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3558813478"
+    },
+    {
+      "steamWorkshopId": "3551851980",
+      "slug": "bug-off",
+      "name": "Bug Off",
+      "description": "Insects will prefer defending their hives and won't attack your colony if another faction provokes them. This doesn't disable their colony assault behavior when all their hives are destroyed.",
+      "previewImage": {
+        "src": "/mods/3551851980/preview.webp",
+        "alt": "Preview artwork for Bug Off",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2025-08-19T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3551851980"
+    },
+    {
+      "steamWorkshopId": "3549601377",
+      "slug": "show-defname-on-label",
+      "name": "Show DefName on Label - Continued",
+      "description": "Show definition's defName on its label.",
+      "previewImage": {
+        "src": "/mods/3549601377/preview.webp",
+        "alt": "Preview artwork for Show DefName on Label - Continued",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["utility"],
+      "supportedVersions": ["1.5", "1.6"],
+      "uploadDate": "2025-08-16T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3549601377"
+    },
+    {
+      "steamWorkshopId": "3545397729",
+      "slug": "smart-weapon-trait",
+      "name": "Smart Weapon Trait",
+      "description": "Adds the Smart trait for unique weapons. This special trait guarantees a 100% hit chance, making every shot a bullseye. Works only for weapons that use bullet projectiles.",
+      "previewImage": {
+        "src": "/mods/3545397729/preview.webp",
+        "alt": "Preview artwork for Smart Weapon Trait",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2025-08-09T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3545397729"
+    },
+    {
+      "steamWorkshopId": "3536247747",
+      "slug": "infusion-2",
+      "name": "Infusion 2 - Continued",
+      "description": "Infusions are like enchantments—they are applied randomly when an equipment is created, providing some stat bonuses or special effects like poison and vampiric healing. Based on the equipment's type and quality, they may get several infusions. (configurable)\n\nThink infusions as prefixes and suffixes of procedural items, from hack and slash games, such as Diablo III or Pillars of Eternity.",
+      "previewImage": {
+        "src": "/mods/3536247747/preview.webp",
+        "alt": "Preview artwork for Infusion 2 - Continued",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2025-07-28T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3536247747"
+    },
+    {
+      "steamWorkshopId": "3533769253",
+      "slug": "no-sympathy-for-prisoners",
+      "name": "No Sympathy For Prisoners",
+      "description": "Pawns feel nothing about committing crimes against prisoners.",
+      "previewImage": {
+        "src": "/mods/3533769253/preview.webp",
+        "alt": "Preview artwork for No Sympathy For Prisoners",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2025-07-24T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3533769253"
+    },
+    {
+      "steamWorkshopId": "3532656751",
+      "slug": "xenogerms-cost-neutroamine",
+      "name": "Xenogerms Cost Neutroamine",
+      "description": "Adds a neutroamine requirement to xenogerm creation, scaling with gene complexity.",
+      "previewImage": {
+        "src": "/mods/3532656751/preview.webp",
+        "alt": "Preview artwork for Xenogerms Cost Neutroamine",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2025-07-23T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3532656751"
+    },
+    {
+      "steamWorkshopId": "3527260958",
+      "slug": "configurable-prison-breaks",
+      "name": "Configurable Prison Breaks - Continued",
+      "description": "Allows prison breaks to be disabled completely or configured based on mental break threshold, default setting disables prison breaks when a pawn is happy (no mental break risk).",
+      "previewImage": {
+        "src": "/mods/3527260958/preview.webp",
+        "alt": "Preview artwork for Configurable Prison Breaks - Continued",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.5", "1.6"],
+      "uploadDate": "2025-07-16T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3527260958"
+    },
+    {
+      "steamWorkshopId": "2813489524",
+      "slug": "no-deep-vce-salt",
+      "name": "No Deep VCE Salt",
+      "description": "A patch to remove Vanilla Cooking Expanded salt from the deep drill resource pool.",
+      "previewImage": {
+        "src": "/mods/2813489524/preview.webp",
+        "alt": "Preview artwork for No Deep VCE Salt",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.3", "1.6"],
+      "uploadDate": "2022-05-27T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2813489524"
+    },
+    {
+      "steamWorkshopId": "2800047809",
+      "slug": "construction-friendly-infestations",
+      "name": "Construction Friendly Infestations",
+      "description": "Infestations will avoid spawning at buildings/furniture.",
+      "previewImage": {
+        "src": "/mods/2800047809/preview.webp",
+        "alt": "Preview artwork for Construction Friendly Infestations",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.3", "1.5", "1.6"],
+      "uploadDate": "2022-04-26T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2800047809"
+    },
+    {
+      "steamWorkshopId": "2799252286",
+      "slug": "flanking-bonus",
+      "name": "Flanking Bonus",
+      "description": "Bonus damage and hit chance when attacking enemies from the side or back.",
+      "previewImage": {
+        "src": "/mods/2799252286/preview.webp",
+        "alt": "Preview artwork for Flanking Bonus",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.3", "1.5", "1.6"],
+      "uploadDate": "2022-04-24T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2799252286"
+    },
+    {
+      "steamWorkshopId": "2766683678",
+      "slug": "weapon-mastery",
+      "name": "Weapon Mastery",
+      "description": "Adds a new simple weapon mastery mechanic into the game. Pawns use the same weapon for a decent amount of time, naturally they should start getting better at handling/using said weapon. This mod adds a new hidden skill that levels up as pawns use their weapons (similar to shooting/melee). Pawns will gradually receive some minor randomized bonuses from mastering weapons and will also rename their weapon for sentimental value.",
+      "previewImage": {
+        "src": "/mods/2766683678/preview.webp",
+        "alt": "Preview artwork for Weapon Mastery",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.3", "1.6"],
+      "uploadDate": "2022-02-27T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2766683678"
+    },
+    {
+      "steamWorkshopId": "3784455797",
+      "slug": "no-ambient-ducking",
+      "name": "No Ambient Ducking",
+      "description": "Prevents music from muting ambient sounds. Wind, biome ambience, and other subtle background sounds continue playing normally while music is active.",
+      "previewImage": {
+        "src": "/mods/3784455797/preview.webp",
+        "alt": "Preview artwork for No Ambient Ducking",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["audio"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-08-16T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3784455797"
+    }
+  ]
+}
