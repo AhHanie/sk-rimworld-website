@@ -896,6 +896,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2026-08-16T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3784455797"
+    },
+    {
+      "steamWorkshopId": "3528055275",
+      "slug": "bigger-devmode-buttons",
+      "name": "Bigger Devmode Buttons",
+      "description": "Modifies the Devmode menu action buttons to have a configurable wider width.",
+      "previewImage": {
+        "src": "/mods/3528055275/preview.webp",
+        "alt": "Preview artwork for Bigger Devmode Buttons",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2025-07-17T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3528055275"
     }
   ]
 }
