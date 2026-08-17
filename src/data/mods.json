@@ -912,6 +912,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2025-07-17T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3528055275"
+    },
+    {
+      "steamWorkshopId": "3784966493",
+      "slug": "limited-passions",
+      "name": "Limited Passions",
+      "description": "Limits newly generated humanlike pawns to one minor passion and one major passion.",
+      "previewImage": {
+        "src": "/mods/3784966493/preview.webp",
+        "alt": "Preview artwork for Limited Passions",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-08-17T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3784966493"
     }
   ]
 }
