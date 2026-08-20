@@ -2,11 +2,12 @@
 
 import * as React from "react";
 import Image from "next/image";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Star } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { compareVersionsDesc, formatTagLabel } from "@/lib/catalog";
 import { PLACEHOLDER_IMAGE_SRC } from "@/lib/constants";
-import type { Mod } from "@/types/mod";
+import { getSteamWorkshopStarRating } from "@/lib/steam-rating";
+import type { CatalogMod } from "@/types/mod";
 
 const dateFormatter = new Intl.DateTimeFormat(undefined, {
   year: "numeric",
@@ -14,7 +15,47 @@ const dateFormatter = new Intl.DateTimeFormat(undefined, {
   day: "numeric",
 });
 
-export function ModCard({ mod }: { mod: Mod }) {
+function formatRatingCount(count: number): string {
+  return `${count} positive rating${count === 1 ? "" : "s"}`;
+}
+
+function ModRatingRow({ positiveRatingCount }: { positiveRatingCount: number }) {
+  const stars = getSteamWorkshopStarRating(positiveRatingCount, 0);
+  const countLabel = formatRatingCount(positiveRatingCount);
+
+  if (stars === undefined) {
+    return (
+      <p className="text-xs text-muted-foreground">No ratings yet · {countLabel}</p>
+    );
+  }
+
+  return (
+    <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
+      <span
+        role="img"
+        aria-label={`${stars} out of 5 stars from ${countLabel}`}
+        className="flex items-center gap-0.5"
+      >
+        {Array.from({ length: 5 }, (_, index) => (
+          <Star
+            key={index}
+            aria-hidden="true"
+            className={
+              index < stars
+                ? "size-3.5 fill-foreground text-foreground"
+                : "size-3.5 text-muted-foreground"
+            }
+          />
+        ))}
+      </span>
+      <span aria-hidden="true">
+        {stars}/5 · {countLabel}
+      </span>
+    </div>
+  );
+}
+
+export function ModCard({ mod }: { mod: CatalogMod }) {
   const [imageFailed, setImageFailed] = React.useState(false);
   const uploadDate = new Date(mod.uploadDate);
   const sortedVersions = [...mod.supportedVersions].sort(compareVersionsDesc);
@@ -54,6 +95,10 @@ export function ModCard({ mod }: { mod: Mod }) {
             </a>
           </h2>
         </div>
+
+        {mod.positiveRatingCount !== undefined && (
+          <ModRatingRow positiveRatingCount={mod.positiveRatingCount} />
+        )}
 
         <p className="line-clamp-3 text-sm text-muted-foreground" title={mod.description}>
           {mod.description}

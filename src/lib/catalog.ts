@@ -1,6 +1,6 @@
 import type {
   CatalogFilters,
-  Mod,
+  CatalogMod,
   ModSort,
   TagCount,
   VersionCount,
@@ -30,7 +30,7 @@ export function normalizeSearchText(value: string): string {
     .replace(/\s+/g, " ");
 }
 
-function getSearchableText(mod: Mod): string {
+function getSearchableText(mod: CatalogMod): string {
   return normalizeSearchText(
     [
       mod.name,
@@ -42,7 +42,7 @@ function getSearchableText(mod: Mod): string {
   );
 }
 
-export function matchesSearch(mod: Mod, query: string): boolean {
+export function matchesSearch(mod: CatalogMod, query: string): boolean {
   const normalizedQuery = normalizeSearchText(query);
   if (!normalizedQuery) return true;
 
@@ -52,19 +52,22 @@ export function matchesSearch(mod: Mod, query: string): boolean {
   return tokens.every((token) => haystack.includes(token));
 }
 
-function matchesTags(mod: Mod, selectedTags: string[]): boolean {
+function matchesTags(mod: CatalogMod, selectedTags: string[]): boolean {
   if (selectedTags.length === 0) return true;
   return mod.tags.some((tag) => selectedTags.includes(tag));
 }
 
-function matchesVersions(mod: Mod, selectedVersions: string[]): boolean {
+function matchesVersions(mod: CatalogMod, selectedVersions: string[]): boolean {
   if (selectedVersions.length === 0) return true;
   return mod.supportedVersions.some((version) =>
     selectedVersions.includes(version),
   );
 }
 
-export function filterMods(mods: Mod[], filters: CatalogFilters): Mod[] {
+export function filterMods(
+  mods: CatalogMod[],
+  filters: CatalogFilters,
+): CatalogMod[] {
   return mods.filter(
     (mod) =>
       matchesSearch(mod, filters.query) &&
@@ -73,11 +76,13 @@ export function filterMods(mods: Mod[], filters: CatalogFilters): Mod[] {
   );
 }
 
-export function sortMods(mods: Mod[], sort: ModSort): Mod[] {
+export function sortMods(mods: CatalogMod[], sort: ModSort): CatalogMod[] {
   const sorted = [...mods];
 
   sorted.sort((a, b) => {
     switch (sort) {
+      case "popularity-desc":
+        return comparePopularity(a, b);
       case "name-asc":
         return tieBreak(collator.compare(a.name, b.name), a, b);
       case "name-desc":
@@ -102,14 +107,25 @@ export function sortMods(mods: Mod[], sort: ModSort): Mod[] {
   return sorted;
 }
 
-function tieBreak(primary: number, a: Mod, b: Mod): number {
+function comparePopularity(a: CatalogMod, b: CatalogMod): number {
+  const aCount = a.positiveRatingCount;
+  const bCount = b.positiveRatingCount;
+
+  if (aCount === undefined && bCount === undefined) return tieBreak(0, a, b);
+  if (aCount === undefined) return 1;
+  if (bCount === undefined) return -1;
+
+  return tieBreak(bCount - aCount, a, b);
+}
+
+function tieBreak(primary: number, a: CatalogMod, b: CatalogMod): number {
   if (primary !== 0) return primary;
   const byName = collator.compare(a.name, b.name);
   if (byName !== 0) return byName;
   return collator.compare(a.steamWorkshopId, b.steamWorkshopId);
 }
 
-export function getAvailableTags(mods: Mod[]): TagCount[] {
+export function getAvailableTags(mods: CatalogMod[]): TagCount[] {
   const counts = new Map<string, number>();
 
   for (const mod of mods) {
@@ -129,7 +145,7 @@ export function compareVersionsDesc(a: string, b: string): number {
   return bMajor - aMajor || bMinor - aMinor;
 }
 
-export function getAvailableVersions(mods: Mod[]): VersionCount[] {
+export function getAvailableVersions(mods: CatalogMod[]): VersionCount[] {
   const counts = new Map<string, number>();
 
   for (const mod of mods) {

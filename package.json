@@ -1,6 +1,6 @@
 {
   "name": "sk-rimworld-mods",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,6 +12,7 @@
     "preview": "pnpm build && serve out"
   },
   "dependencies": {
+    "better-sqlite3": "^13.0.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.545.0",
@@ -20,12 +21,14 @@
     "radix-ui": "^1.6.7",
     "react": "19.2.8",
     "react-dom": "19.2.8",
+    "server-only": "^0.0.1",
     "tailwind-merge": "^3.3.1",
     "zod": "^4.1.13"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "@tailwindcss/postcss": "^4.1.16",
+    "@types/better-sqlite3": "^9.6.0",
     "@types/node": "^24.11.1",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",

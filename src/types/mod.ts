@@ -22,7 +22,12 @@ export interface ModCatalogData {
   mods: Mod[];
 }
 
+export interface CatalogMod extends Mod {
+  positiveRatingCount?: number;
+}
+
 export type ModSort =
+  | "popularity-desc"
   | "name-asc"
   | "name-desc"
   | "upload-date-desc"

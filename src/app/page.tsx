@@ -1,9 +1,9 @@
 import { PageContainer } from "@/components/layout/page-container";
 import { ModCatalog } from "@/components/mods/mod-catalog";
-import { getMods } from "@/lib/mods";
+import { getCatalogMods } from "@/lib/mods";
 
 export default function Home() {
-  const mods = getMods();
+  const mods = getCatalogMods();
 
   return (
     <PageContainer className="flex flex-col gap-8 py-10">

@@ -16,9 +16,13 @@ import {
   sortMods,
 } from "@/lib/catalog";
 import { DEFAULT_SORT } from "@/lib/constants";
-import type { CatalogFilters, Mod, ModSort as ModSortType } from "@/types/mod";
+import type {
+  CatalogFilters,
+  CatalogMod,
+  ModSort as ModSortType,
+} from "@/types/mod";
 
-export function ModCatalog({ mods }: { mods: Mod[] }) {
+export function ModCatalog({ mods }: { mods: CatalogMod[] }) {
   const [query, setQuery] = React.useState("");
   const [selectedTags, setSelectedTags] = React.useState<string[]>([]);
   const [selectedVersions, setSelectedVersions] = React.useState<string[]>([]);

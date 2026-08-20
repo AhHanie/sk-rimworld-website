@@ -9,9 +9,10 @@ import {
   normalizeSearchText,
   sortMods,
 } from "@/lib/catalog";
-import type { CatalogFilters, Mod } from "@/types/mod";
+import { DEFAULT_SORT } from "@/lib/constants";
+import type { CatalogFilters, CatalogMod } from "@/types/mod";
 
-function makeMod(overrides: Partial<Mod> = {}): Mod {
+function makeMod(overrides: Partial<CatalogMod> = {}): CatalogMod {
   return {
     steamWorkshopId: "1000000000",
     slug: "sample-mod",
@@ -131,7 +132,67 @@ describe("filterMods", () => {
   });
 });
 
+describe("popularity sort", () => {
+  it("is the default sort", () => {
+    expect(DEFAULT_SORT).toBe("popularity-desc");
+  });
+});
+
 describe("sortMods", () => {
+  it("sorts rated mods by descending positive-vote count and places unrated mods last", () => {
+    const mods = [
+      makeMod({ steamWorkshopId: "1", name: "Low", positiveRatingCount: 28 }),
+      makeMod({ steamWorkshopId: "2", name: "Unrated" }),
+      makeMod({ steamWorkshopId: "3", name: "High", positiveRatingCount: 416 }),
+      makeMod({ steamWorkshopId: "4", name: "Mid", positiveRatingCount: 171 }),
+    ];
+
+    expect(sortMods(mods, "popularity-desc").map((m) => m.name)).toEqual([
+      "High",
+      "Mid",
+      "Low",
+      "Unrated",
+    ]);
+  });
+
+  it("breaks ties among equal known counts by name then steam id", () => {
+    const mods = [
+      makeMod({ steamWorkshopId: "2", name: "Same", positiveRatingCount: 100 }),
+      makeMod({ steamWorkshopId: "1", name: "Same", positiveRatingCount: 100 }),
+    ];
+
+    expect(sortMods(mods, "popularity-desc").map((m) => m.steamWorkshopId)).toEqual([
+      "1",
+      "2",
+    ]);
+  });
+
+  it("breaks ties among unrated mods by name then steam id", () => {
+    const mods = [
+      makeMod({ steamWorkshopId: "2", name: "Zeta" }),
+      makeMod({ steamWorkshopId: "1", name: "Alpha" }),
+      makeMod({ steamWorkshopId: "3", name: "Alpha" }),
+    ];
+
+    expect(sortMods(mods, "popularity-desc").map((m) => m.steamWorkshopId)).toEqual([
+      "1",
+      "3",
+      "2",
+    ]);
+  });
+
+  it("treats a positive-vote count of zero as known and ranked above unrated mods", () => {
+    const mods = [
+      makeMod({ steamWorkshopId: "1", name: "Unrated" }),
+      makeMod({ steamWorkshopId: "2", name: "Zero", positiveRatingCount: 0 }),
+    ];
+
+    expect(sortMods(mods, "popularity-desc").map((m) => m.name)).toEqual([
+      "Zero",
+      "Unrated",
+    ]);
+  });
+
   it("sorts by name ascending and descending", () => {
     const mods = [makeMod({ name: "Zeta" }), makeMod({ name: "Alpha" })];
     expect(sortMods(mods, "name-asc").map((m) => m.name)).toEqual(["Alpha", "Zeta"]);

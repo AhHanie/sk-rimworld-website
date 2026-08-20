@@ -9,13 +9,18 @@ export const SITE_URL =
 export const PLACEHOLDER_IMAGE_SRC = "/images/mod-placeholder.svg";
 
 export const SORT_LABELS: Record<
-  "name-asc" | "name-desc" | "upload-date-desc" | "upload-date-asc",
+  | "popularity-desc"
+  | "name-asc"
+  | "name-desc"
+  | "upload-date-desc"
+  | "upload-date-asc",
   string
 > = {
+  "popularity-desc": "Popularity",
   "upload-date-desc": "Newest first",
   "upload-date-asc": "Oldest first",
   "name-asc": "Name (A–Z)",
   "name-desc": "Name (Z–A)",
 };
 
-export const DEFAULT_SORT = "upload-date-desc" as const;
+export const DEFAULT_SORT = "popularity-desc" as const;

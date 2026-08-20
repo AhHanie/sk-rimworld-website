@@ -9,6 +9,9 @@ HTML/CSS/JS with no runtime server required.
 
 - Node.js 20.9 or later
 - [pnpm](https://pnpm.io/) (`corepack enable` will provide it)
+- A working native build toolchain (e.g. Visual Studio Build Tools on Windows,
+  Xcode Command Line Tools on macOS, or `python3`/`make`/`g++` on Linux) so
+  `pnpm install` can compile `better-sqlite3`'s native binding
 
 ## Setup
 
@@ -102,6 +105,26 @@ reports every problem it finds, including the offending mod's Workshop ID,
 the field, and the reason (for example a duplicate slug, a malformed date,
 or a missing preview image file). Fix the reported entries in `mods.json` (and
 add any missing image files) and re-run the command.
+
+## Ratings and popularity
+
+Star ratings and the default **Popularity** sort are read from
+`data/workshop_stats.db`, a SQLite database of scraped Steam Workshop
+statistics (not part of `src/data/`, and not checked into this repository).
+`pnpm build` (and `pnpm dev`) open it once per process, keep only the newest
+positive-vote count for each Workshop ID, and merge that optional value onto
+the catalog data before the page renders. This happens entirely at build/dev
+time; the exported static site never opens SQLite in the browser, and no
+database file ships in the client bundle.
+
+Ratings are a snapshot of `data/workshop_stats.db` as of the last build:
+- A mod with no row, or whose newest row has a `NULL` rating, renders no star
+  UI and sorts after every mod with a known count.
+- **Rebuild the site** (`pnpm build`) to publish fresher stats; editing the
+  database without rebuilding has no effect on the deployed site.
+
+`pnpm build` fails fast with a clear error if `data/workshop_stats.db` is
+missing, unreadable, or missing the expected `workshop_stats` table.
 
 ## Deployment
 
