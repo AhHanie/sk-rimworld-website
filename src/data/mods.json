@@ -928,6 +928,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2026-08-17T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3784966493"
+    },
+    {
+      "steamWorkshopId": "3788512568",
+      "slug": "scenarios-menu-search",
+      "name": "Scenarios Menu Search",
+      "description": "Adds a search field to the scenario selection screen.",
+      "previewImage": {
+        "src": "/mods/3788512568/preview.webp",
+        "alt": "Preview artwork for Scenarios Menu Search",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface", "quality-of-life"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-08-23T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3788512568"
     }
   ]
 }
