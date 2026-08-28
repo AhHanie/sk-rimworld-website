@@ -944,6 +944,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2026-08-23T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3788512568"
+    },
+    {
+      "steamWorkshopId": "3791365166",
+      "slug": "declutter-ui-not-included-addon",
+      "name": "DeclutterUI UI Not Inlcuded Addon",
+      "description": "A UI Not Included add-on that adds a searchable \"menus\" main button, letting you find and open any main button (including ones you've hidden from the toolbars) without exposing UI Not Included's toolbar editor. This doesn't require DeclutterUI installed.",
+      "previewImage": {
+        "src": "/mods/3791365166/preview.webp",
+        "alt": "Preview artwork for DeclutterUI UI Not Inlcuded Addon",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface", "quality-of-life", "addon"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-08-28T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3791365166"
     }
   ]
 }
