@@ -960,6 +960,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2026-08-28T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3791365166"
+    },
+    {
+      "steamWorkshopId": "3793497508",
+      "slug": "settlement-services",
+      "name": "Settlement Services",
+      "description": "Turns faction settlements into places that offer paid services instead of only trade and combat. Request medical care, training, hospitality, crafting commissions, and more; prices scale with your colony's wealth and the game's difficulty, and what's on offer depends on a settlement's faction, technology, and specialties.",
+      "previewImage": {
+        "src": "/mods/3793497508/preview.webp",
+        "alt": "Preview artwork for Settlement Services",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay", "factions"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-08-31T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3793497508"
     }
   ]
 }
