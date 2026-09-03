@@ -67,7 +67,7 @@ export function ModCard({ mod }: { mod: CatalogMod }) {
         target="_blank"
         rel="noreferrer"
         aria-label={`Open ${mod.name} on the Steam Workshop (opens in a new tab)`}
-        className="relative block aspect-video w-full overflow-hidden bg-muted"
+        className="relative block aspect-video w-full overflow-hidden bg-card"
       >
         <Image
           src={imageFailed ? PLACEHOLDER_IMAGE_SRC : mod.previewImage.src}
