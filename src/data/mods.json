@@ -976,6 +976,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2026-08-31T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3793497508"
+    },
+    {
+      "steamWorkshopId": "3794903743",
+      "slug": "artisan-experience",
+      "name": "Artisan Experience",
+      "description": "Rewards pawns with Artistic experience for finishing crafted or constructed items that contain art.",
+      "previewImage": {
+        "src": "/mods/3794903743/preview.webp",
+        "alt": "Preview artwork for Artisan Experience",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-09-03T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3794903743"
     }
   ]
 }
