@@ -992,6 +992,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2026-09-03T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3794903743"
+    },
+    {
+      "steamWorkshopId": "3796688140",
+      "slug": "rim-is-ready",
+      "name": "Rim is Ready",
+      "description": "Plays a ding and/or sends a Discord notification once RimWorld finishes loading and reaches the main menu. Both notifications are configurable in the mod settings.",
+      "previewImage": {
+        "src": "/mods/3796688140/preview.webp",
+        "alt": "Preview artwork for Rim is Ready",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["utility"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-09-06T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3796688140"
     }
   ]
 }
