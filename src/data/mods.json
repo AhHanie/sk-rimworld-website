@@ -1008,6 +1008,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2026-09-06T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3796688140"
+    },
+    {
+      "steamWorkshopId": "3797085822",
+      "slug": "psylink-unbound",
+      "name": "Psylink Unbound",
+      "description": "Psylink Unbound raises the psylink level cap and makes each level reduce your psycasts' psyfocus cost, without changing vanilla's psyfocus bar itself. Both the cap and the discount per level are configurable, and the discount also applies to Vanilla Psycasts Expanded's psycasts if installed.",
+      "previewImage": {
+        "src": "/mods/3797085822/preview.webp",
+        "alt": "Preview artwork for Psylink Unbound",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay", "vanilla-expanded"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-09-06T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3797085822"
     }
   ]
 }
