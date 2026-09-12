@@ -1024,6 +1024,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2026-09-06T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3797085822"
+    },
+    {
+      "steamWorkshopId": "3799924005",
+      "slug": "photo-mode",
+      "name": "Photo Mode",
+      "description": "Adds a dedicated Photo Mode for composing and capturing screenshots. Free-fly the camera, tweak time of day and weather, pose and adjust pawns, and apply image effects like exposure, vignette, and chromatic aberration.",
+      "previewImage": {
+        "src": "/mods/3799924005/preview.webp",
+        "alt": "Preview artwork for Photo Mode",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface", "quality-of-life"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-09-12T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3799924005"
     }
   ]
 }
