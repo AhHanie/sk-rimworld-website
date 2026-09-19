@@ -1040,6 +1040,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2026-09-12T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3799924005"
+    },
+    {
+      "steamWorkshopId": "3804042037",
+      "slug": "caravan-sustenance",
+      "name": "Caravan Sustenance",
+      "description": "Lets a player caravan hunt wild animals from its current tile while traveling. Needs at least one eligible hunter and one eligible cook traveling in the caravan. Hunting happens in the background with no player intervention. Hunting slightly slows the caravan while active.",
+      "previewImage": {
+        "src": "/mods/3804042037/preview.webp",
+        "alt": "Preview artwork for Caravan Sustenance",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay", "caravan"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-09-19T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3804042037"
     }
   ]
 }
