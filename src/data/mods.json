@@ -1056,6 +1056,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2026-09-19T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3804042037"
+    },
+    {
+      "steamWorkshopId": "3806200966",
+      "slug": "deep-reserves",
+      "name": "Deep Reserves",
+      "description": "When you hover a revealed deep-resource tile with a deep scanner or deep drill selected (or while placing a drill), this mod replaces the vanilla per-tile readout with the total resource remaining in that entire connected deposit, instead of just the one cell under your cursor.",
+      "previewImage": {
+        "src": "/mods/3806200966/preview.webp",
+        "alt": "Preview artwork for Deep Reserves",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["quality-of-life"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-09-22T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806200966"
     }
   ]
 }
