@@ -1072,6 +1072,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2026-09-22T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806200966"
+    },
+    {
+      "steamWorkshopId": "3807468351",
+      "slug": "neutroflow",
+      "name": "Neutroflow",
+      "description": "Makes the neutroamine pipe network from Vanilla Races Expanded - Android actually matter. Biosculpter pods, growth vats, mech gestators, the gene extractor, and cryptosleep caskets each draw a standby rate from that network while idle and a higher rate while actively working; if the network runs dry, the device's operation pauses (or, for an occupied cryptosleep casket, ejects its occupant) instead of silently continuing for free.",
+      "previewImage": {
+        "src": "/mods/3807468351/preview.webp",
+        "alt": "Preview artwork for Neutroflow",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay", "balance", "biotech"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-09-24T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3807468351"
     }
   ]
 }
