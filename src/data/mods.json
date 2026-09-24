@@ -1088,6 +1088,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2026-09-24T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3807468351"
+    },
+    {
+      "steamWorkshopId": "3807506394",
+      "slug": "styled-identity-framework",
+      "name": "Styled Identity Framework",
+      "description": "A framework for style-pack authors. Lets an individual Ideology-applied ThingStyleDef carry its own custom flavor description and projectile or beam configuration.",
+      "previewImage": {
+        "src": "/mods/3807506394/preview.webp",
+        "alt": "Preview artwork for Styled Identity Framework",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["framework"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-09-25T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3807506394"
     }
   ]
 }
