@@ -1104,6 +1104,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2026-09-25T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3807506394"
+    },
+    {
+      "steamWorkshopId": "3809205571",
+      "slug": "drugs-on-duty",
+      "name": "Drugs on Duty",
+      "description": "Lets colonists take a drug their existing drug policy schedule allows during work timetable hours, instead of waiting until the block ends.",
+      "previewImage": {
+        "src": "/mods/3809205571/preview.webp",
+        "alt": "Preview artwork for Drugs on Duty",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-09-27T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3809205571"
     }
   ]
 }
