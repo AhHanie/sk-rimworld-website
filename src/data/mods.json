@@ -1120,6 +1120,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2026-09-27T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3809205571"
+    },
+    {
+      "steamWorkshopId": "3812094687",
+      "slug": "bred-in-captivity",
+      "name": "Bred in Captivity",
+      "description": "Animals born to two colony-tamed parents of the same species are slightly less wild than the more domesticated parent, building up generation by generation until Wildness reaches 0%. Once an animal is domesticated enough (about 10% Wildness or less, so always at 0%), its tameness no longer decays and it never needs tameness re-training. The reduction per generation (default 8 percentage points) is configurable in the mod settings.",
+      "previewImage": {
+        "src": "/mods/3812094687/preview.webp",
+        "alt": "Preview artwork for Bred in Captivity",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-10-02T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812094687"
     }
   ]
 }
