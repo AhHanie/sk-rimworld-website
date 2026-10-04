@@ -1136,6 +1136,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2026-10-02T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812094687"
+    },
+    {
+      "steamWorkshopId": "3813222696",
+      "slug": "emergency-transfusion",
+      "name": "Emergency Transfusion",
+      "description": "Adds a \"Stabilize with hemogen\" order to the right-click menu of a drafted colonist when the clicked pawn is suffering from blood loss. The colonist uses one hemogen pack from their own inventory, or fetches the closest reachable, then applies it in about one second. This reduces blood loss by the same amount as one pack in a surgical blood transfusion (35%), much faster than surgery or tending. The order is manual only. It only changes the blood loss condition: wounds stay open and keep bleeding, so the patient may still need normal tending afterwards.",
+      "previewImage": {
+        "src": "/mods/3813222696/preview.webp",
+        "alt": "Preview artwork for Emergency Transfusion",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay", "biotech"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-10-04T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3813222696"
     }
   ]
 }
