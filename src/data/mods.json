@@ -1152,6 +1152,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2026-10-04T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3813222696"
+    },
+    {
+      "steamWorkshopId": "3816620528",
+      "slug": "mechanoid-sentience",
+      "name": "Mechanoid Sentience",
+      "description": "Turns a mechanoid into a sentient, player controlled colonist with a name, backstory, traits, skills and passions, while keeping its body, health, weapon and appearance. Use the rare mechanoid sentience catalyst on a living mechanoid, or wait for one to awaken on its own.",
+      "previewImage": {
+        "src": "/mods/3816620528/preview.webp",
+        "alt": "Preview artwork for Mechanoid Sentience",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay", "biotech", "mechanoid"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-10-09T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3816620528"
     }
   ]
 }
