@@ -1168,6 +1168,22 @@
       "supportedVersions": ["1.6"],
       "uploadDate": "2026-10-09T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3816620528"
+    },
+    {
+      "steamWorkshopId": "3818011865",
+      "slug": "tie-to-tree",
+      "name": "Tie to Tree",
+      "description": "Tie prisoners outdoors to a nearby tree that is at least 80% grown. Tied prisoners stay normal colony prisoners, so wardens still feed, tend and interact with them. Each day a tied prisoner has a small chance to break free and try to escape. The chance can be changed in the mod settings.",
+      "previewImage": {
+        "src": "/mods/3818011865/preview.webp",
+        "alt": "Preview artwork for Tie to Tree",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay"],
+      "supportedVersions": ["1.6"],
+      "uploadDate": "2026-10-11T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3818011865"
     }
   ]
 }
