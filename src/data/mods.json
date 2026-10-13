@@ -109,7 +109,7 @@
         "height": 360
       },
       "tags": ["framework", "architect-menu", "user-interface"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-08-07T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3778946367"
     },
@@ -173,7 +173,7 @@
         "height": 360
       },
       "tags": ["quality-of-life", "lightning"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-08-02T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3775919927"
     },
@@ -205,7 +205,7 @@
         "height": 360
       },
       "tags": ["quality-of-life"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-07-26T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3771997038"
     },
@@ -237,7 +237,7 @@
         "height": 360
       },
       "tags": ["user-interface"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-07-12T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3763229720"
     },
@@ -269,7 +269,7 @@
         "height": 360
       },
       "tags": ["gameplay", "bionics"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-06-25T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3751653311"
     },
@@ -285,7 +285,7 @@
         "height": 360
       },
       "tags": ["gameplay", "framework"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-06-25T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3751642856"
     },
@@ -301,7 +301,7 @@
         "height": 360
       },
       "tags": ["user-interface"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-06-18T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3746834011"
     },
@@ -365,7 +365,7 @@
         "height": 360
       },
       "tags": ["gameplay"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-05-13T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3725341333"
     },
@@ -397,7 +397,7 @@
         "height": 360
       },
       "tags": ["user-interface", "quality-of-life"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-04-15T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3707045543"
     },
@@ -429,7 +429,7 @@
         "height": 360
       },
       "tags": ["quests", "vanilla-expanded"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-04-07T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3701574428"
     },
@@ -477,7 +477,7 @@
         "height": 360
       },
       "tags": ["gameplay"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-03-16T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3686379345"
     },
@@ -525,7 +525,7 @@
         "height": 360
       },
       "tags": ["quality-of-life"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-02-13T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3665399164"
     },
@@ -557,7 +557,7 @@
         "height": 360
       },
       "tags": ["user-interface"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-01-28T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3655513355"
     },
@@ -605,7 +605,7 @@
         "height": 360
       },
       "tags": ["quality-of-life"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2025-11-28T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3614008905"
     },
@@ -621,7 +621,7 @@
         "height": 360
       },
       "tags": ["gameplay", "odyssey"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2025-11-24T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3611626696"
     },
@@ -637,7 +637,7 @@
         "height": 360
       },
       "tags": ["gameplay", "odyssey"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-04-22T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3712232510"
     },
@@ -717,7 +717,7 @@
         "height": 360
       },
       "tags": ["gameplay"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2025-08-19T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3551851980"
     },
@@ -829,7 +829,7 @@
         "height": 360
       },
       "tags": ["gameplay"],
-      "supportedVersions": ["1.3", "1.6"],
+      "supportedVersions": ["1.3", "1.6", "1.7"],
       "uploadDate": "2022-05-27T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2813489524"
     },
@@ -893,7 +893,7 @@
         "height": 360
       },
       "tags": ["audio"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-08-16T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3784455797"
     },
@@ -909,7 +909,7 @@
         "height": 360
       },
       "tags": ["user-interface"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2025-07-17T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3528055275"
     },
@@ -925,7 +925,7 @@
         "height": 360
       },
       "tags": ["user-interface"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-08-17T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3784966493"
     },
@@ -957,7 +957,7 @@
         "height": 360
       },
       "tags": ["user-interface", "quality-of-life", "addon"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-08-28T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3791365166"
     },
@@ -989,7 +989,7 @@
         "height": 360
       },
       "tags": ["gameplay"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-09-03T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3794903743"
     },
@@ -1069,7 +1069,7 @@
         "height": 360
       },
       "tags": ["quality-of-life"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-09-22T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806200966"
     },
@@ -1117,7 +1117,7 @@
         "height": 360
       },
       "tags": ["gameplay"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-09-27T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3809205571"
     },
@@ -1133,7 +1133,7 @@
         "height": 360
       },
       "tags": ["gameplay"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-10-02T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812094687"
     },
@@ -1149,7 +1149,7 @@
         "height": 360
       },
       "tags": ["gameplay", "biotech"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-10-04T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3813222696"
     },
@@ -1165,7 +1165,7 @@
         "height": 360
       },
       "tags": ["gameplay", "biotech", "mechanoid"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-10-09T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3816620528"
     },
@@ -1181,7 +1181,7 @@
         "height": 360
       },
       "tags": ["gameplay"],
-      "supportedVersions": ["1.6"],
+      "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-10-11T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3818011865"
     }
