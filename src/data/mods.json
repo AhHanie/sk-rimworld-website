@@ -1184,6 +1184,22 @@
       "supportedVersions": ["1.6", "1.7"],
       "uploadDate": "2026-10-11T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3818011865"
+    },
+    {
+      "steamWorkshopId": "3819627954",
+      "slug": "frame-profiler-quick-access",
+      "name": "Frame Profiler Quick Access",
+      "description": "Adds a button to the bottom bar that opens and closes Rimworld's built-in frame profiler with one click, so you don't have to dig through the debug actions menu. An option in the mod settings hides the button unless dev mode is enabled.",
+      "previewImage": {
+        "src": "/mods/3819627954/preview.webp",
+        "alt": "Preview artwork for Frame Profiler Quick Access",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["utility"],
+      "supportedVersions": ["1.7"],
+      "uploadDate": "2026-10-14T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3819627954"
     }
   ]
 }
