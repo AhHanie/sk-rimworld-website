@@ -1200,6 +1200,22 @@
       "supportedVersions": ["1.7"],
       "uploadDate": "2026-10-14T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3819627954"
+    },
+    {
+      "steamWorkshopId": "3821406926",
+      "slug": "tunnel-raids",
+      "name": "Tunnel Raids",
+      "description": "Hostile raiders can now tunnel up from beneath your colony. A new raid arrival mode, built the way insect infestations are: a few tunnels rumble open near your colonists, then the raiders burst out and attack.",
+      "previewImage": {
+        "src": "/mods/3821406926/preview.webp",
+        "alt": "Preview artwork for Tunnel Raids",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay", "raid"],
+      "supportedVersions": ["1.7"],
+      "uploadDate": "2026-10-17T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3821406926"
     }
   ]
 }
