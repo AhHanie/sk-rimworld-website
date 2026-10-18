@@ -339,12 +339,12 @@
     },
     {
       "steamWorkshopId": "3730115956",
-      "slug": "workshop-mod-tags",
-      "name": "Workshop Mod Tags",
-      "description": "Adds support for Workshop-style custom tags to help Rimworld mods describe what they add, change, or depend on. The goal is to make browsing, sorting, and organizing mods easier by encouraging authors to use clearer, more consistent tags.\n\nThis mod does not add official Rimworld Workshop filter categories in Steam's backend. It also cannot guarantee that Steam displays any custom tag, since Steam controls how tags appear on Workshop pages.",
+      "slug": "mod-publish-helper",
+      "name": "Mod Publish Helper",
+      "description": "Helps you publish mods to the Steam Workshop. Add Workshop tags to your mods before uploading/updating, and have \"Don't upload source textures\" checked by default when your mod only supports RimWorld 1.7 or newer.",
       "previewImage": {
         "src": "/mods/3730115956/preview.webp",
-        "alt": "Preview artwork for Workshop Mod Tags",
+        "alt": "Preview artwork for Mod Publish Helper",
         "width": 640,
         "height": 360
       },
