@@ -1216,6 +1216,22 @@
       "supportedVersions": ["1.7"],
       "uploadDate": "2026-10-17T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3821406926"
+    },
+    {
+      "steamWorkshopId": "3824108489",
+      "slug": "one-orbit-many-colonies",
+      "name": "One Orbit, Many Colonies",
+      "description": "Orbital trade ships are shared between all of your colonies. Every map with a powered comms console can contact every active orbital trader, and trades change the same ship's stock and silver for everyone.",
+      "previewImage": {
+        "src": "/mods/3824108489/preview.webp",
+        "alt": "Preview artwork for One Orbit, Many Colonies",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay", "orbital t rader"],
+      "supportedVersions": ["1.7"],
+      "uploadDate": "2026-10-21T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3824108489"
     }
   ]
 }
