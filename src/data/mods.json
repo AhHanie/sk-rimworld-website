@@ -1232,6 +1232,22 @@
       "supportedVersions": ["1.7"],
       "uploadDate": "2026-10-21T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3824108489"
+    },
+    {
+      "steamWorkshopId": "3829076966",
+      "slug": "path-of-sacrifice",
+      "name": "Path of Sacrifice",
+      "description": "Adds a trampling ritual to Ideology: colonists walk over a victim lying before an altar, leaving a permanent scar and a mood boost for the participants. The new ritual is added under the scarification precept.",
+      "previewImage": {
+        "src": "/mods/3829076966/preview.webp",
+        "alt": "Preview artwork for Path of Sacrifice",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay", "ideology", "ritual"],
+      "supportedVersions": ["1.7"],
+      "uploadDate": "2026-10-28T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3829076966"
     }
   ]
 }
