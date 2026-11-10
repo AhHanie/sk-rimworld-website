@@ -1248,6 +1248,22 @@
       "supportedVersions": ["1.7"],
       "uploadDate": "2026-10-28T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3829076966"
+    },
+    {
+      "steamWorkshopId": "3837322529",
+      "slug": "linkable-descriptions",
+      "name": "Linkable Descriptions",
+      "description": "Shows the facility's description when you hover its build button on a selected building, such as a tool cabinet on a worktable or an end table on a bed. Clicking still starts placement as usual.",
+      "previewImage": {
+        "src": "/mods/3837322529/preview.webp",
+        "alt": "Preview artwork for Linkable Descriptions",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["quality-of-life"],
+      "supportedVersions": ["1.7"],
+      "uploadDate": "2026-11-10T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3837322529"
     }
   ]
 }
