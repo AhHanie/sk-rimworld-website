@@ -1250,20 +1250,20 @@
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3829076966"
     },
     {
-      "steamWorkshopId": "3837322529",
-      "slug": "linkable-descriptions",
-      "name": "Linkable Descriptions",
-      "description": "Shows the facility's description when you hover its build button on a selected building, such as a tool cabinet on a worktable or an end table on a bed. Clicking still starts placement as usual.",
+      "steamWorkshopId": "3837632462",
+      "slug": "injector-implant",
+      "name": "Injector Implant",
+      "description": "Adds a craftable torso implant that stores up to five units of a single drug or hemogen pack. Colonists can restock it from their inventory or the map, then inject a stored unit in a couple of seconds, wherever they are, even while drafted. Vanilla and modded drugs are supported, each injection triggers the item's normal effects, and the implant also gives a small amount of armor. Unlock it by researching Bionics, then craft it at a fabrication bench (Crafting 8) and install it on the torso with surgery.",
       "previewImage": {
-        "src": "/mods/3837322529/preview.webp",
-        "alt": "Preview artwork for Linkable Descriptions",
+        "src": "/mods/3837632462/preview.webp",
+        "alt": "Preview artwork for Injector Implant",
         "width": 640,
         "height": 360
       },
-      "tags": ["quality-of-life"],
+      "tags": ["gameplay", "bionics"],
       "supportedVersions": ["1.7"],
-      "uploadDate": "2026-11-10T00:00:00.000Z",
-      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3837322529"
+      "uploadDate": "2026-11-11T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3837632462"
     }
   ]
 }
