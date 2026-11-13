@@ -1264,6 +1264,22 @@
       "supportedVersions": ["1.7"],
       "uploadDate": "2026-11-11T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3837632462"
+    },
+    {
+      "steamWorkshopId": "3839041756",
+      "slug": "player-multicolor-ideology-icon",
+      "name": "Player Multicolor Ideology Icon",
+      "description": "Customize the player's ideology icon only. Paint the symbol with multiple colors, a linear gradient, or both. Symbol paint is saved with games and ideology presets.",
+      "previewImage": {
+        "src": "/mods/3839041756/preview.webp",
+        "alt": "Preview artwork for Player Multicolor Ideology Icon",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface"],
+      "supportedVersions": ["1.7"],
+      "uploadDate": "2026-11-13T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3839041756"
     }
   ]
 }
