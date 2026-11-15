@@ -33,6 +33,12 @@ describe("ModCatalogSchema", () => {
     expect(result.success).toBe(true);
   });
 
+  it("accepts a GIF preview image", () => {
+    const catalog = validCatalog();
+    catalog.mods[0].previewImage.src = "/mods/1234567890/preview.gif";
+    expect(ModCatalogSchema.safeParse(catalog).success).toBe(true);
+  });
+
   it("accepts an empty mod list", () => {
     const result = ModCatalogSchema.safeParse(validCatalog({ mods: [] }));
     expect(result.success).toBe(true);

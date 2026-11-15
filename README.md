@@ -51,7 +51,8 @@ pnpm test             # run the vitest suite
 ## Managing mod data
 
 `src/data/mods.json` is the single source of truth for the catalog. Each
-mod's local preview image lives at `public/mods/<steamWorkshopId>/preview.webp`.
+mod's local preview image lives at `public/mods/<steamWorkshopId>/preview.webp`
+or `public/mods/<steamWorkshopId>/preview.gif`.
 
 To add a mod:
 
@@ -59,7 +60,7 @@ To add a mod:
    the app; copy individual entries into `mods.json`, don't rename the
    template itself).
 2. Add a preview image at `public/mods/<steamWorkshopId>/preview.webp`
-   (recommended size: 640×360, `.webp` format).
+   or `public/mods/<steamWorkshopId>/preview.gif` (recommended size: 640×360).
 3. Add an entry to the `mods` array in `src/data/mods.json`:
 
    ```json
@@ -80,6 +81,9 @@ To add a mod:
      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890"
    }
    ```
+
+   For an animated GIF, set `previewImage.src` to the matching `.gif` path.
+   The preview displays the GIF animation as provided.
 
 4. Run `pnpm validate:data` to check your entry before building.
 
