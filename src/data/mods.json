@@ -1280,6 +1280,22 @@
       "supportedVersions": ["1.7"],
       "uploadDate": "2026-11-13T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3839041756"
+    },
+    {
+      "steamWorkshopId": "3841933485",
+      "slug": "gene-preview",
+      "name": "Gene Preview",
+      "description": "Shows a live pawn appearance preview while assembling a xenogerm.",
+      "previewImage": {
+        "src": "/mods/3841933485/preview.webp",
+        "alt": "Preview artwork for Gene Preview",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["user-interface", "quality-of-life", "biotech"],
+      "supportedVersions": ["1.7"],
+      "uploadDate": "2026-11-18T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3841933485"
     }
   ]
 }
