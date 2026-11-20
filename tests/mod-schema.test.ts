@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { assert, describe, expect, it } from "vitest";
 import { ModCatalogSchema } from "@/lib/mod-schema";
 
 function validCatalog(overrides: Record<string, unknown> = {}) {
@@ -35,7 +35,9 @@ describe("ModCatalogSchema", () => {
 
   it("accepts a GIF preview image", () => {
     const catalog = validCatalog();
-    catalog.mods[0].previewImage.src = "/mods/1234567890/preview.gif";
+    const [mod] = catalog.mods;
+    assert(mod);
+    mod.previewImage.src = "/mods/1234567890/preview.gif";
     expect(ModCatalogSchema.safeParse(catalog).success).toBe(true);
   });
 
