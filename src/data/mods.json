@@ -1296,6 +1296,22 @@
       "supportedVersions": ["1.7"],
       "uploadDate": "2026-11-18T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3841933485"
+    },
+    {
+      "steamWorkshopId": "3843374692",
+      "slug": "hardcore-freezers",
+      "name": "Hardcore Freezers",
+      "description": "Frozen perishables spoil gradually, with colder storage slowing spoilage until a configurable deep-freeze cutoff stops it. Both temperature curves apply to food, corpses, herbal medicine, and other perishables that use Rimworld's rot component. The optional freeze-damage curve makes perishables lose hit points in extreme cold. Customize both curves in the mod settings.",
+      "previewImage": {
+        "src": "/mods/3843374692/preview.webp",
+        "alt": "Preview artwork for Hardcore Freezers",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["gameplay", "balance"],
+      "supportedVersions": ["1.7"],
+      "uploadDate": "2026-11-21T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3843374692"
     }
   ]
 }
