@@ -1312,6 +1312,22 @@
       "supportedVersions": ["1.7"],
       "uploadDate": "2026-11-21T00:00:00.000Z",
       "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3843374692"
+    },
+    {
+      "steamWorkshopId": "3845131619",
+      "slug": "carousel",
+      "name": "Carousel - Continued",
+      "description": "Adds camera rotation. Default rotation key (changeable in the options): Numpad Enter",
+      "previewImage": {
+        "src": "/mods/3845131619/preview.gif",
+        "alt": "Preview artwork for Carousel - Continued",
+        "width": 640,
+        "height": 360
+      },
+      "tags": ["camera"],
+      "supportedVersions": ["1.3", "1.4", "1.5", "1.7"],
+      "uploadDate": "2026-11-24T00:00:00.000Z",
+      "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3845131619"
     }
   ]
 }
